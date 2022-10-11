@@ -1,0 +1,55 @@
+:root {
+    --bg-color: rgb(58, 120, 215);
+    --border-color: rgb(50, 32, 127);
+}
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: grey;
+}
+
+header,
+main,
+footer {
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-color);
+    margin: 0.5rem 1rem 1rem 0;
+    padding: 1rem;
+}
+
+header {
+    height: 10vh;
+
+}
+
+main {
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+}
+
+footer {
+    height: 10vh;
+
+}
+
+.card-container {
+    display: flex;
+    width: 70vw;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.card {
+    height: 10rem;
+    width: 12rem;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 0 5px black;
+    font-size: 1.1rem;
+    padding-top: 2rem;
+
+}
