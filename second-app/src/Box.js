@@ -7,6 +7,7 @@ const Box = (props) => {
                 <h2>{props.name}</h2>
                 <p>Title: {props.title}</p>
                 <p>Age: {props.age}</p>
+                <ul>{props.lang}</ul>
             </div>
         </div>
 
