@@ -13,7 +13,7 @@ const persons = [Maria, Kati, Karin];
 let card;
 
 function templateText(person) {
-    let template = `<h2>${person.name}<h2><p>Title: ${person.title}</p><p>Age: ${person.age}</p>`
+    let template = `<h2>${person.name}</h2><p>Title: ${person.title}</p><p>Age: ${person.age}</p>`
     return template;
 }
 
@@ -25,7 +25,7 @@ function populateCard() {
         console.log(cards[i]);
         let text = document.createElement('div');
         cards[i].appendChild(text);
-        text.textContent = cardText;
+        text.innerHTML = cardText;
         console.log(cardText);
     }
 }
