@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    height: 120px;
+    background-color: rgb(113, 113, 204);
+}
